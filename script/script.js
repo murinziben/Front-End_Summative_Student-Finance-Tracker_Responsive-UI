@@ -290,14 +290,28 @@ function deleteTransaction(id) {
 function editTransaction(id) {
     const transaction = transactions.find(t => t.id === id);
     if (transaction) {
-        document.getElementById('description').value = transaction.description;
-        document.getElementById('amount').value = transaction.amount;
-        document.getElementById('category').value = transaction.category;
-        document.getElementById('date').value = transaction.date;
-        navigateTo('add');
-        deleteTransaction(id);
+        if (confirm('Are you sure you want to edit this transaction?')) {
+            // Fill form fields with transaction data
+            document.getElementById('description').value = transaction.description;
+            document.getElementById('amount').value = transaction.amount;
+            document.getElementById('category').value = transaction.category;
+            document.getElementById('date').value = transaction.date;
+
+            // Navigate to edit form
+            navigateTo('add');
+
+            // Remove the old transaction entry silently (no delete message)
+            transactions = transactions.filter(t => t.id !== id);
+
+            // Update UI
+            renderTransactions();
+            updateDashboard();
+
+            showStatus('Transaction ready to edit', 'info');
+        }
     }
 }
+
 
 // Update dashboard
 function updateDashboard() {
