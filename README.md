@@ -2,7 +2,7 @@ Student Finance Tracker
 A comprehensive, accessible, and responsive web application designed for students to manage their expenses effectively with advanced regex validation and search capabilities.
 Live Demo
 GitHub Repository: https://github.com/murinziben/Front-End_Summative_Student-Finance-Tracker_Responsive-UI
-Live Demo (YouTube page): https://youtu.be/MYauxsuwcr4
+Live Demo (YouTube page): https://youtu.be/f--4PdFu7vc
 Table of Contents
 Theme
 Features
