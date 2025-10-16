@@ -181,9 +181,7 @@ finance-tracker/
 ├── styles/
 │   └── main.css       	# All styles (included in index.html)
 ├── scripts/
-│   └── script.js      	# All JavaScript (included in index.html)
-└── assets/
-	└── demo-video.mp4 	# Demo video (if applicable)
+   └── script.js      	# All JavaScript (included in index.html)
 Note: This is a single-file implementation with embedded CSS and JavaScript for simplicity.
 
  Installation & Setup
