@@ -1,8 +1,8 @@
 Student Finance Tracker
 A comprehensive, accessible, and responsive web application designed for students to manage their expenses effectively with advanced regex validation and search capabilities.
 Live Demo
-GitHub Repository: https://github.com/yourusername/finance-tracker
-Live Demo (GitHub Pages): https://yourusername.github.io/finance-tracker
+GitHub Repository: https://github.com/murinziben/Front-End_Summative_Student-Finance-Tracker_Responsive-UI
+Live Demo (YouTube page): https://youtu.be/MYauxsuwcr4
 Table of Contents
 Theme
 Features
@@ -246,7 +246,7 @@ Update EUR or RWF rates
 Click "Save Settings"
 Conversions update on dashboard
 
-🧪 Testing
+Testing
 Running Tests
 Open tests.html in your browser to run regex validation tests.
 Manual Testing Checklist
@@ -275,6 +275,34 @@ Responsive Tests
  Test at 1024px+ width (desktop)
 Charts resize properly
 Tables scroll horizontally
+
+Keyboard Navigation Map
+Global Shortcuts
+Key CombinationActionAlt + DNavigate to DashboardAlt + TNavigate to TransactionsAlt + ANavigate to Add TransactionTabMove to next focusable elementShift + TabMove to previous focusable elementEnter / SpaceActivate buttons and links
+Navigation Menu
+
+Use Tab to focus on navigation buttons
+Use Enter or Space to activate
+Visual focus indicator shows current position
+
+Tables
+
+Tab through sortable column headers
+Enter to sort by that column
+Tab through action buttons in each row
+
+Forms
+
+Tab through form fields
+Shift + Tab to go back
+Enter to submit form
+Error messages announced to screen readers
+
+Modal/Confirmation Dialogs
+
+Tab to cycle through options
+Enter to confirm
+Esc to cancel (browser default)
 
 Technologies Used
 HTML5: Semantic markup
